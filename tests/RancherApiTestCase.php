@@ -1,6 +1,6 @@
 <?php
 
-namespace Mauchede\RancherApi\Tests;
+namespace RancherUserMaker\RancherApi\Tests;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\RequestException;
@@ -9,7 +9,7 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mauchede\RancherApi\Client\Client;
+use RancherUserMaker\RancherApi\Client\Client;
 
 abstract class RancherApiTestCase extends \PHPUnit_Framework_TestCase
 {
