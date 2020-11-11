@@ -17,10 +17,10 @@
     }
   ],
   "autoload": {
-    "psr-4": {"rancherusermaker\\RancherApi\\": "src/"}
+    "psr-4": {"RancherUserMaker\\RancherApi\\": "src/"}
   },
   "autoload-dev": {
-    "psr-4": {"rancherusermaker\\RancherApi\\Tests\\": "tests/"}
+    "psr-4": {"RancherUserMaker\\RancherApi\\Tests\\": "tests/"}
   },
   "require": {
     "php": ">=5.5",
