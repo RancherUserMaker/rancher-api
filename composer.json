@@ -1,5 +1,5 @@
 {
-  "name": "mauchede/rancher-api",
+  "name": "rancherusermaker/rancher-api",
   "type": "library",
   "description": "Rancher API is a set of PHP classes for interacting with Rancher",
   "keywords": [
@@ -7,7 +7,7 @@
     "client",
     "rancher"
   ],
-  "homepage": "http://github.com/mauchede/rancher-api",
+  "homepage": "http://github.com/RancherUserMaker/rancher-api",
   "license": "MIT",
   "authors": [
     {
@@ -17,10 +17,10 @@
     }
   ],
   "autoload": {
-    "psr-4": {"Mauchede\\RancherApi\\": "src/"}
+    "psr-4": {"RancherUserMaker\\RancherApi\\": "src/"}
   },
   "autoload-dev": {
-    "psr-4": {"Mauchede\\RancherApi\\Tests\\": "tests/"}
+    "psr-4": {"RancherUserMaker\\RancherApi\\Tests\\": "tests/"}
   },
   "require": {
     "php": ">=5.5",
@@ -35,7 +35,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.0-dev"
+      "dev-master": "1.0.0"
     }
   }
 }
